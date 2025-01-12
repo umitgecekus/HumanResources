@@ -3,4 +3,5 @@ include 'admin-service'
 include 'manager-service'
 include 'auth-service'
 include 'mail-service'
+include 'gateway-service'
 
