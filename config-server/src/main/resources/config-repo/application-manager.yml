@@ -1,0 +1,25 @@
+server:
+  port: 9095
+
+spring:
+  security:
+    user:
+      name: workforce
+      password: solutions
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: root
+  datasource:
+    url: jdbc:postgresql://localhost:5432/HRPManagerDB
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
