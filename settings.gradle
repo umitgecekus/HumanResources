@@ -1,3 +1,4 @@
 rootProject.name = 'HumanResources'
 include 'admin-service'
+include 'manager-service'
 
