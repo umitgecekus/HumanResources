@@ -5,4 +5,5 @@ include 'auth-service'
 include 'mail-service'
 include 'gateway-service'
 include 'config-server'
+include 'employee-service'
 
