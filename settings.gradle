@@ -8,4 +8,5 @@ include 'config-server'
 include 'employee-service'
 include 'company-service'
 include 'comment-service'
+include 'requirements-service'
 

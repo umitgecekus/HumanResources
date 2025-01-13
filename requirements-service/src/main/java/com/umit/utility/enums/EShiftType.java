@@ -1,0 +1,8 @@
+package com.umit.utility.enums;
+
+public enum EShiftType {
+
+    FIRST_SHIFT,SECOND_SHIFT,THIRD_SHIFT,STANDARD_SHIFT,FIXED_SHIFT,ROTATING_SHIFT,
+    FLEX_SHIFT, SPLIT_SHIFT, NIGHT_SHIFT
+
+}
