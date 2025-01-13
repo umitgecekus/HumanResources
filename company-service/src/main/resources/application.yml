@@ -1,0 +1,20 @@
+server:
+  port: 9093
+
+spring:
+  security:
+    user:
+      name: workforce
+      password: solutions
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: CompanyDB
+      username: bilgeUser
+      password: bilgeUser*
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: root
